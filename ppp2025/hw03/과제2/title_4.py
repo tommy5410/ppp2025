@@ -1,5 +1,0 @@
-trapezoid_a = int(input("윗변의 길이가 몇cm입니까?=>"))
-trapezoid_b = int(input("및변의 길이가 몇cm입니까?=>"))
-trapezoid_h = int(input("높이의 길이가 몇cm입니까?=>"))
-trapezoid_area = (1/2)*(trapezoid_a + trapezoid_b) * (trapezoid_h)
-print("윗변이{}cm높이가{}cm높이가{}cm면 사다리꼴 면적은{}cm 입니다".format(trapezoid_a,trapezoid_b,trapezoid_h,trapezoid_area))
