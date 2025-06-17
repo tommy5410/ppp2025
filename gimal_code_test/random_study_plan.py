@@ -27,7 +27,6 @@ STUDY_MATERIALS_DIR = "study_materials"
 
 # --- 데이터 영구 저장/불러오기 함수 (Pandas 활용) ---
 def save_study_data():
-    """study_records_df를 CSV 파일로 저장합니다. (Gemini가 작성한 Pandas 코드입니다.)"""
    
     try:
         study_records_df.to_csv(DATA_FILE, index=False, encoding='utf-8-sig') 
